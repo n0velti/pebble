@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="n0v"
+           fetch=".."
+          />
+ 
   <remote  name="github"
            fetch=".."
+           review="review.lineageos.org"
           />
 
   <remote  name="private"
@@ -14,13 +19,13 @@
            revision="refs/tags/android-10.0.0_r41" />
 
   <default revision="refs/heads/lineage-17.1"
-           remote="https://github.com/LineageOS/android.git"
+           remote="github"
            sync-c="true"
            sync-j="4" />
 
   <!-- n0velti Projects -->
 
-  <project path="device/pebble/flint" name="n0velti/device_flint_x86_64" remote="github" revision="master"/>
+  <project path="device/pebble/flint" name="n0velti/device_flint_x86_64" remote="n0v" revision="master"/>
 
   <!-- AOSP Projects -->
 
