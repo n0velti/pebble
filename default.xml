@@ -14,7 +14,7 @@
            revision="refs/tags/android-10.0.0_r41" />
 
   <default revision="refs/heads/lineage-17.1"
-           remote="git://github.com/LineageOS/android.git"
+           remote="https://github.com/LineageOS/android.git"
            sync-c="true"
            sync-j="4" />
 
