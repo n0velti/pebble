@@ -25,7 +25,6 @@
 
   <!-- n0velti Projects -->
 
-  <project path="device/pebble/flint" name="n0velti/device_flint_x86_64" remote="n0v" revision="master"/>
   <project path="vendor/pebble" name="n0velti/android_vendor_pebble" remote="n0v"/>
 
   <!-- AOSP Projects -->
