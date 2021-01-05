@@ -27,7 +27,7 @@
 
   <project path="vendor/pebble" name="n0velti/android_vendor_pebble" remote="n0v"/>
   <project path="packages/apps/SetupWizard" name="n0velti/android_packages_apps_PebbleSetupWizard" remote="n0v"/>
-  <project path="packages/apps/Lawnchair" name="n0velti/Lawnchair" remote="n0v"/>
+  <project path="packages/apps/Lawnchair" name="n0velti/Lawnchair" remote="n0v" revision="stable"/>
 
 
   <!-- AOSP Projects -->
